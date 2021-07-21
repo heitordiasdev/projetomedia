@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JHM Games</title>
+	<link rel="stylesheet" type="text/css" href="atividade.css">
+	
+</head>
+<body>
+	<header>
+		<div class="menu">
+			<h1 class="titulo-principal"><font face="Arial">Aprovados e Humilhados</h1>
+		</div>
+		
+	</header>
+	<main>
+		<form id="form-alunos">
+			
+			<label for="filtrar-tabela">Filtrar Aluno:</label>
+			<input type="text" name='filtro' id='filtrar-tabela' class='input-padrao' placeholder='Digite o nome do aluno'>
+			
+
+			<h2>Notas dos alunos</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Nome do aluno</th>
+						<th>Nota 1</th>
+						<th>Nota 2</th>
+						<th>Nota 3</th>
+						<th>Média Semestral</th>
+						<th>Situação</th>
+						
+					</tr>
+				</thead>
+				<tbody id="info-tabela">
+					<tr class="aluno" id="primeiro-aluno">
+						<td class="info-nome">João Gabriel</td>
+						<td class="info-nota1">90</td>
+						<td class="info-nota2">100</td>
+						<td class="info-nota3">89</td>
+						<td class="media-aluno"></td>
+						<td class="situacao"></td>
+						
+
+					</tr>
+
+					<tr class="aluno" id="segundo-aluno">
+						<td class="info-nome">Heitor kakuamba </td>
+						<td class="info-nota1">70</td>
+						<td class="info-nota2">45</td>
+						<td class="info-nota3">90</td>
+						<td class="media-aluno"> </td>
+						<td class="situacao"> </td>
+						
+
+					</tr>
+
+					<tr class="aluno" id="terceiro-aluno">
+						<td class="info-nome">José Chris </td>
+						<td class="info-nota1">85</td>
+						<td class="info-nota2">50</td>
+						<td class="info-nota3">42</td>
+						<td class="media-aluno"></td>
+						<td class="situacao"></td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+			<h2>Adicionar um novo aluno</h2>
+			<div>
+				<label for="nome">Nome completo:</label>
+				<input type="text" name="Nome" id="nome" class="input-padrao" placeholder="Digite seu nome aqui">
+			</div>
+			<div class="pp">
+				<label for="nota1">Nota 1:</label>
+				<input type="number" name="nota1" id="nota1" class="input-padrao2">
+			</div>
+			<div class="pp">
+				<label for="nota2">Nota 2:</label>
+				<input type="number" name="nota2" id="nota2" class="input-padrao2">
+			</div>
+			<div class="pp">	
+				<label for="nota3">Nota 3:</label>
+				<input type="number" name="nota3" id="nota3" class="input-padrao2">
+			</div>
+			
+			<button id="adicionar-aluno" class="botao">Adicionar</button>
+
+		</form>
+	</main>
+	<script type="text/javascript" src="media-alunos.js"></script>
+	<script type="text/javascript" src="form.js"></script>
+	<script type="text/javascript" src="filtrar.js"></script>
+	<script type="text/javascript" src="remover-aluno.js"></script>
+
+
+	
+</body>
+</html>

@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+title{
+	font-size: 70px;
+}
+header{
+	background: 
+	
+}
+header img{
+	width: 17%;
+
+}
+
+.banner {
+
+	width: 71%;
+	padding-left: 200px;
+	padding-top: 20px;
+	height: 400px;
+
+}
+
+body{
+	background-image: url(fundoc.jpg);
+}
+.menu{
+	background-image: url(fundoc.jpg);
+	width: 940px;
+	color: white;
+	background: black;
+}
+.menu{
+	position: relative;
+	width: 940px;
+	border-color: black;
+	border-style: groove;
+	border-width: 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.animacao {
+	opacity: 0;
+	transition: 2s;
+}
+
+.invisivel{
+	display: none;
+}
+
+
+h1{
+	font
+}
+nav{
+	position: absolute;
+	top: 80px;
+	right: 0px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 30px;
+}
+nav a{
+	color: #34a9ed; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.categorias{
+	width: 940px ;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+
+
+.categorias li {
+	color: #34a9ed;
+	vertical-align: top bottom;
+	padding: 2em;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	border-color: black;
+	border-style: groove;
+	border-width: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.categorias li:hover {
+	border-color: white;
+	text-shadow: white 0.1em 0.1em 0.2em;
+}
+.categorias li:active {
+	border-color: #bd1919;
+
+}
+.categorias li:hover h2{
+	font-size: 32px;
+}
+.categorias li img{
+	height: 220px;
+
+}
+
+.categorias{
+	width: 940px ;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+
+
+.paragrafo li {
+	color: #34a9ed;
+	vertical-align: top ;
+	padding: 2em;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	border-color: black;
+	border-style: groove;
+	border-width: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.paragrafo li:hover {
+	border-color: white;
+	text-shadow: white 0.1em 0.1em 0.2em;
+}
+.paragrafo li:active {
+	border-color: #bd1919;
+
+}
+.paragrafo li:hover h2{
+	font-size: 32px;
+}
+
+.paragrafo {
+	width: 940px ;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+}
+footer img{
+	width: 40%;
+}
+footer{
+	text-align: center;
+	background: black;
+	color: white ;
+	padding-bottom: 20px;
+}
+
+
+form{
+	width: 600px;
+	margin: 30px auto;
+}
+form label, form legend{
+	display: block;
+	margin: 20px 0 10px 0;
+	font-size: 20px;
+	color:white;
+}
+fieldset{
+	border: 0 none;
+}
+.padrao1{
+	display: inline-block;
+	margin: 0 0 10px 10px;
+	border-color: red
+}
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+	border-color: red;
+	box-sizing: b;
+}
+
+.botao{
+	width: 70%;
+	margin: 0 100px;
+	padding: 10px 25px;
+	background: darkred;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.botao:hover{
+	background:red;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+form h2{
+	text-align: center;
+	font-size: 1.8em;
+	color: white;
+
+}
+
+
+.padrao2{
+	width: 10%;
+	padding: 10px 25px;
+	border-color: red
+}
+.padrao3{
+	border-color: red
+}
+
+table{
+	width: 600px;
+	margin: 30px auto;
+	background: white;
+	border-collapse: collapse;
+}
+thead{
+	color: white;
+	background: red;
+}
+td, th{
+	border: 2px solid black;
+	text-align: center;
+	padding: 8px ;
+}
+
+
+
+.input-padrao2{
+	display: inline-block;
+	margin: 0 0 50px;
+	padding: 10px 25px;
+	width:140px;
+	border-color: red;
+}
+
+.pp{
+	display: inline-block;
+	
+}
